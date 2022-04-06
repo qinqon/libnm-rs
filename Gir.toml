@@ -1,0 +1,21 @@
+[options]
+girs_directories = ["gir-files", "/home/ellorent/Documents/cnv/upstream/gir-files"]
+library = "NM"
+version = "1.0"
+min_cfg_version = "1.0"
+target_path = "."
+work_mode = "normal"
+single_version_file = true
+deprecate_by_min_version = true
+trust_return_value_nullability = true
+
+generate = [
+    "NM.Client",
+]
+
+manual = [
+    "GLib.Error",
+    "GLib.Variant",
+    "Gio.Cancellable",
+    "Gio.AsyncResult",
+]

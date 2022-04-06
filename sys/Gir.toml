@@ -1,0 +1,9 @@
+[options]
+girs_directories = ["../gir-files", "/home/ellorent/Documents/cnv/upstream/gir-files"]
+library = "NM"
+version = "1.0"
+target_path = "."
+work_mode = "sys"
+generate = [
+    "NM.Client",
+]
